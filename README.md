@@ -69,6 +69,7 @@ print("Hello, DevOps World!")
  failed to solve: DeadlineExceeded: DeadlineExceeded: DeadlineExceeded: python:3.11-slim: failed to do request: Head "https://c.163.com/v2/library/python/manifests/3.15-slim?ns=docker.io": dial tcp 106.2.45.239:443: i/o timeout
 Для их решение было принято добавить зеркала в /etc/docker/daemon.json с которых можно скачивать образы
 вот финальный Json-файл
+```json
 {
   "insecure-registries": [
     "127.0.0.0/8"
@@ -81,6 +82,7 @@ print("Hello, DevOps World!")
     "https://mirror.baidubce.com/"
   ]
 }
+```
 После этих изменений образ собрался 
 
 ![Собранный образ](./screenshots/build%20my%20image.png)
