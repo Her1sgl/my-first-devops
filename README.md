@@ -42,7 +42,7 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 ![Установленный docker и git](./screenshots/Git%20and%20docker%20install.png)
 
 # Запуск контейнера hello from docker
-![Hello from docker](./screenshots/Hello%20from%20docker.png)
+![Hello from docker](./screenshots/Hello%20from%20docekr.png)
 
 ### Часть 4  Расширение работы с Docker
 
